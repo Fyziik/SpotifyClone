@@ -118,7 +118,7 @@
             let convertedUrl = getAudioFromAPI.results[k]
             convertedUrl = convertedUrl.substring(7, convertedUrl.length - 4)
             convertedUrl = convertedUrl.replace(/%20/g, " ");
-            audio.urls.push("http://localhost:3000" + directUrl) //Semi hardcoded, should retrieve title / url from audio objects returned from API
+            audio.urls.push("https://webshop-testing.herokuapp.com/" + directUrl) //Semi hardcoded, should retrieve title / url from audio objects returned from API
             audio.urlsConverted.push(convertedUrl)
             audio.durations.push(250) //So far its hardcoded, should be replaced with actual duration
             audio.artists.push("unknown")
