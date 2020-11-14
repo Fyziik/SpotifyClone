@@ -81,3 +81,7 @@ tr {
     background: #4CAF50;
     cursor: pointer;
 }
+
+.playing {
+    color: #4CAF50;
+}
